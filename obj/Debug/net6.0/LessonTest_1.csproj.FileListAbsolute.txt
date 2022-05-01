@@ -1,0 +1,15 @@
+E:\GitHub\test\LessonTest_1\bin\Debug\net6.0\LessonTest_1.exe
+E:\GitHub\test\LessonTest_1\bin\Debug\net6.0\LessonTest_1.deps.json
+E:\GitHub\test\LessonTest_1\bin\Debug\net6.0\LessonTest_1.runtimeconfig.json
+E:\GitHub\test\LessonTest_1\bin\Debug\net6.0\LessonTest_1.dll
+E:\GitHub\test\LessonTest_1\bin\Debug\net6.0\LessonTest_1.pdb
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.csproj.AssemblyReference.cache
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.AssemblyInfoInputs.cache
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.AssemblyInfo.cs
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.csproj.CoreCompileInputs.cache
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.dll
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\refint\LessonTest_1.dll
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.pdb
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\LessonTest_1.genruntimeconfig.cache
+E:\GitHub\test\LessonTest_1\obj\Debug\net6.0\ref\LessonTest_1.dll
