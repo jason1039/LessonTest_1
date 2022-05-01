@@ -1,13 +1,47 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int[] IDList = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
-int[] Contactee = { 2, 0, 7, 11, 15, 4, 14, 1, 8, 13, 3, 5, 12, 9, 6, 10 };
-Console.WriteLine("Enter id of infected citizen:");
+
+Random rnd = new();
+List<int> IDList = new();
+List<int> Contactee = new();
+// int[] IDList = new int[16];
+// int[] Contactee = new int[16];
+while (IDList.Count() < 16)
+{
+    int temp = rnd.Next(0, 16);
+    if (!IDList.Contains(temp))
+    {
+        IDList.Add(temp);
+    }
+}
+while (Contactee.Count() < 16)
+{
+    int temp = rnd.Next(0, 16);
+    if (!Contactee.Contains(temp)) Contactee.Add(temp);
+}
+
+
 int InputPserson = 3;
 List<int> Result = new();
+int[] res_temp = Contactee.ToArray();
 while (!Result.Contains(InputPserson))
 {
     Result.Add(InputPserson);
-    InputPserson = Contactee[InputPserson];
+    InputPserson = res_temp[IDList.IndexOf(InputPserson)];
 }
+Console.WriteLine(String.Join(",", IDList.ToArray()));
+Console.WriteLine(String.Join(",", res_temp));
 Console.WriteLine(String.Join(",", Result.ToArray()));
-Console.WriteLine("End");
+
+// int[] ID = IDList.ToArray();
+// int[] Con = Contactee.ToArray();
+// Console.WriteLine("Enter id of infected citizen:");
+// int InputPserson = 3;
+// List<int> Result = new();
+
+// while (!Result.Contains(InputPserson))
+// {
+//     Result.Add(InputPserson);
+//     InputPserson = Con[InputPserson];
+// }
+// Console.WriteLine(String.Join(",", Result.ToArray()));
+// Console.WriteLine("End");
